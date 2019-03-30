@@ -1,11 +1,23 @@
-.body {
-    background-color: white;
-  }
+.page {
+  background: url("../images/firebase_logo.JPG");
+  background-repeat: repeat;
+}
+
+.jumbotron {
+  background: red;
+  color: white;
+}
+
   .main-container {
     width: 80%;
     margin-left: 10%;
   }
-  #employee-table {
-    margin: 5px;
-    border: solid lightgray 1px;
+
+  #add-train-btn {
+    background: red;
+  }
+
+  #trainSchedule,
+  #add-new {
+    border: solid red 2px;
   }
